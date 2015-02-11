@@ -12,7 +12,7 @@
 
 ?>
 <html>
-	<form>
+	<form action="./1.php" method="post">
 		<input type="text" name="name" />
 		<input type="number" name="age" />
 		<input type="text" name="username" />
