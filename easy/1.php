@@ -10,12 +10,18 @@
  * 
  */
 
+if($_POST <> null){
+	
+}else{
 ?>
+
 <html>
 	<form action="./1.php" method="post">
-		<input type="text" name="name" />
-		<input type="number" name="age" />
-		<input type="text" name="username" />
+		<input type="text" name="name" value="Evan" />
+		<input type="number" name="age" value="23" />
+		<input type="text" name="username" value="Cabbages_N_Kings" />
 		<input type="submit" />
 	</form>
 </html>
+
+<?php }; ?>
