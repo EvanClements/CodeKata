@@ -19,6 +19,3 @@
 		<input type="submit" />
 	</form>
 </html>
-<?php
-
-?>
