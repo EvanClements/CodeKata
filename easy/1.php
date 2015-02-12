@@ -10,13 +10,14 @@
  * 
  */
 
-if($_POST <> null){
+if($_REQUEST['submitted'] === "yes"){
 	
 }else{
+
 ?>
 
 <html>
-	<form action="./1.php" method="post">
+	<form action="./1.php?submitted=yes" method="post">
 		<input type="text" name="name" value="Evan" />
 		<input type="number" name="age" value="23" />
 		<input type="text" name="username" value="Cabbages_N_Kings" />
