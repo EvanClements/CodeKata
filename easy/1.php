@@ -11,7 +11,7 @@
  */
 
 if($_REQUEST['submitted'] === "yes"){
-	$request = json_encode($_GET);
+	$request = json_encode($_POST);
 	print_r($request);
 }else{
 
