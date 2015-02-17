@@ -18,9 +18,12 @@ if($_REQUEST['submitted'] === "yes"){
 
 <html>
 	<form action="./1.php?submitted=yes" method="post">
-		<input type="text" name="name" value="Evan" />
-		<input type="number" name="age" value="23" />
-		<input type="text" name="username" value="Cabbages_N_Kings" />
+		<label>What is your name? </label>
+			<input type="text" name="name" value="Evan" />
+		<label>How old are you? </label>
+			<input type="number" name="age" value="23" />
+		<label>What is your Reddit Username? </label>
+			<input type="text" name="username" value="Cabbages_N_Kings" />
 		<input type="submit" />
 	</form>
 </html>
