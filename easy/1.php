@@ -32,11 +32,11 @@ if($_REQUEST['submitted'] === "yes" && $_POST <> null){
 <html>
 	<form action="./1.php?submitted=yes" method="post">
 		<label>What is your name? </label>
-			<input type="text" name="name" value="Evan" />
+			<input type="text" name="name" placeholder="Name" />
 		<label>How old are you? </label>
-			<input type="number" name="age" value="23" />
+			<input type="number" name="age" placeholder="Age" />
 		<label>What is your Reddit Username? </label>
-			<input type="text" name="username" value="Cabbages_N_Kings" />
+			<input type="text" name="username" placeholder="Reddit Username" />
 		<input type="submit" />
 	</form>
 </html>
