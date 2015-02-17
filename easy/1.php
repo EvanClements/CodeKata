@@ -10,7 +10,7 @@
  * 
  */
 
-if($_REQUEST['submitted'] === "yes"){
+if($_REQUEST['submitted'] === "yes" && $_POST <> null){
 	$request = json_encode($_POST);
 	print_r("Your name is ".$_POST['name'].", you are ".$_POST['age'].", and your Reddit username is <a href=\"http://www.reddit.com/u/".$_POST['username']."\">".$_POST['username']."</a>.");
 }else{
