@@ -24,12 +24,7 @@ if($_REQUEST['submitted'] === "yes" && $_POST <> null){
 	
 	fclose($fh);
 	
-	print_r(
-		"Your name is ".$_POST['name']
-		.", you are ".$_POST['age'].
-		", and your Reddit username is <a href=\"http://www.reddit.com/u/".$_POST['username']."\">".$_POST['username']."</a>."
-		" Download your JSON file here: <a href=\"http://evanclements.co/projects/codekata/easy/".$userInfo."\" download=\"info.json\">here</a>."	
-	);
+	print_r("Your name is ".$_POST['name'].", you are ".$_POST['age'].", and your Reddit username is <a href=\"http://www.reddit.com/u/".$_POST['username']."\">".$_POST['username']."</a>. Download your JSON file here: <a href=\"http://evanclements.co/projects/codekata/easy/".$userInfo."\" download=\"info.json\">here</a>."	);
 }else{
 
 ?>
