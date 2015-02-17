@@ -3,6 +3,7 @@
 /* Challenge #1
  * Difficulty: Easy
  * URL: http://www.reddit.com/r/dailyprogrammer/comments/pih8x/easy_challenge_1/ 
+ * Finished: 02-17-15 10:52AM.
  *
  * Create a program that will ask the users name, age, and reddit username. have it tell them the information back, in the format:
  * --> your name is (blank), you are (blank) years old, and your username is (blank)
@@ -28,17 +29,22 @@ if($_REQUEST['submitted'] === "yes" && $_POST <> null){
 }else{
 
 ?>
-
+<!DOCTYPE html>
 <html>
-	<form action="./1.php?submitted=yes" method="post">
-		<label>What is your name? </label>
-			<input type="text" name="name" placeholder="Name" />
-		<label>How old are you? </label>
-			<input type="number" name="age" placeholder="Age" />
-		<label>What is your Reddit Username? </label>
-			<input type="text" name="username" placeholder="Reddit Username" />
-		<input type="submit" />
-	</form>
+	<head>
+		<title>Easy Challenge #1 | Code Kata</title>
+	</head>
+	<body>
+		<form action="./1.php?submitted=yes" method="post">
+			<label>What is your name? </label>
+				<input type="text" name="name" placeholder="Name" />
+			<label>How old are you? </label>
+				<input type="number" name="age" placeholder="Age" />
+			<label>What is your Reddit Username? </label>
+				<input type="text" name="username" placeholder="Reddit Username" />
+			<input type="submit" />
+		</form>
+	</body>
 </html>
 
 <?php }; ?>
