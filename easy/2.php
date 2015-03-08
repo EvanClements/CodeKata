@@ -15,5 +15,9 @@
  * be able to calculate F = M * A, but also A = F/M, and M = F/A!
  * 
  */
-
-?>
+ ?>
+	
+<form action="./2.php?submitted=yes" method="post">
+	<label></label>
+</form>
+   
